@@ -1,0 +1,77 @@
+$date
+	Mon Oct 16 00:12:49 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module stimulus $end
+$var wire 4 ! msg [3:0] $end
+$var wire 1 " msg1 $end
+$var reg 1 # clock $end
+$var reg 1 $ send $end
+$scope module uut $end
+$var wire 1 % clock $end
+$var wire 4 & msg [3:0] $end
+$var wire 1 ' send $end
+$var reg 1 ( msg1 $end
+$upscope $end
+$scope module uut1 $end
+$var wire 1 " msg $end
+$var reg 4 ) msg1 [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+x(
+0'
+bx &
+0%
+0$
+0#
+x"
+bx !
+$end
+#10000
+b0 )
+b0 !
+b0 &
+0(
+0"
+1$
+1'
+1#
+1%
+#20000
+0#
+0%
+#30000
+1#
+1%
+#40000
+0#
+0%
+0$
+0'
+#50000
+1#
+1%
+#60000
+b0 )
+b0 !
+b0 &
+0(
+0"
+0#
+0%
+1$
+1'
+#70000
+1#
+1%
+0$
+0'

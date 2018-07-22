@@ -1,0 +1,5 @@
+1.
+
+The module uses a clock which performs 100 clock cycles. 
+The module prints the hello world message along with the current timestamp (in clock cycles) at the positive edge of each clock cycle. 
+Each clock cycle takes 20 ns.

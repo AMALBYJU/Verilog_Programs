@@ -1,0 +1,74 @@
+$date
+	Mon Oct 16 00:06:15 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module stimulus $end
+$var wire 1 ! string5 $end
+$var wire 1 " string6 $end
+$var reg 1 # clock $end
+$scope module A $end
+$var wire 1 $ clock $end
+$var wire 1 ! string $end
+$var reg 1 % string2 $end
+$upscope $end
+$scope module B $end
+$var wire 1 $ clock $end
+$var wire 1 " string $end
+$var reg 1 & string2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x&
+x%
+0$
+0#
+x"
+x!
+$end
+#10000
+0%
+0"
+0&
+0!
+1#
+1$
+#20000
+0#
+0$
+#30000
+0&
+0!
+0%
+0"
+1#
+1$
+#40000
+0#
+0$
+#50000
+0%
+0"
+0&
+0!
+1#
+1$
+#60000
+0#
+0$
+#70000
+0&
+0!
+0%
+0"
+1#
+1$
+#80000
+0#
+0$
